@@ -1,6 +1,73 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
-h1{
-    color: red;
+.section-one{
+    background-image: url(img/bg-1.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
+.container{
+    width: 90%;
+    margin:auto;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.half-part{
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.half-part img{
+    width: 75%;
+    margin-left: 35px;
+}
+.head-content{
+    text-align: justify;
+}
+.welcome, .world{
+    font-size: 50px;
+    margin: 0;
+}
+.name-color{
+    color: crimson;
+}
+.title{
+    color: darkblue;
+    margin-bottom: -10px;
+}
+.button-design{
+    text-decoration: none;
+    background-image: linear-gradient(orangered, crimson);
+    color: white;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .container{
+        flex-direction: column-reverse;
+    }
+    .half-part img{
+        width: 70%;
+        margin: auto;
+        padding-right: 15%;
+    }
+    .welcome, .world{
+        font-size: 28px;
+        text-align: center;
+    }
+    .section-one{
+        height: 768px;
+    }
+  }
