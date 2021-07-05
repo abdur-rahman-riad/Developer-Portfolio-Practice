@@ -32,6 +32,16 @@ body{
     justify-content: center;
     align-items: center;
 }
+.section-three{
+    background-image: url(img/bg-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 .container{
     width: 90%;
     margin:auto;
@@ -53,6 +63,12 @@ body{
     justify-content: center;
     align-items: center;
 }
+.clients-review{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 .half-part{
     width: 100%;
     margin: 10px;
@@ -63,6 +79,26 @@ body{
 .one-third{
     width: 100%;
     margin: 15px;
+}
+.review{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 400px;
+    padding: 10px 20px;
+    background-color: color;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #adadad;
+}
+.client-photo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid orangered;
 }
 .one-third img{
     width: 100%;
@@ -95,6 +131,9 @@ body{
     color: darkblue;
     margin-bottom: -10px;
 }
+.client-name{
+    color: gray;
+}
 .button-design{
     text-decoration: none;
     background-image: linear-gradient(orangered, crimson);
@@ -122,18 +161,30 @@ body{
     }
     .section-one{
         height: 768px;
+        margin-bottom: 380px;
     }
     .section-two{
         height: 768px;
-        margin-bottom: 250px;
+        margin-bottom: 380px;
     }
     .section-three{
         height: 768px;
+        margin-bottom: 380px;
+    }
+    .section-four{
+        height: 768px;
+        margin-bottom: 380px;
     }
     .second-photo{
         margin-top: 50px;
     }
     .latest-work{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .clients-review{
         display: flex;
         flex-direction: column;
         justify-content: center;
