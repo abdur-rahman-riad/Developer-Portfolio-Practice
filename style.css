@@ -32,7 +32,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-.section-three{
+.section-four{
     background-image: url(img/bg-2.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -42,6 +42,7 @@ body{
     justify-content: center;
     align-items: center;
 }
+
 .container{
     width: 90%;
     margin:auto;
@@ -92,6 +93,7 @@ body{
     margin: 20px;
     text-align: center;
     border-radius: 10px;
+    background-color: white;
     box-shadow: 3px 3px 10px #adadad;
 }
 .client-photo{
@@ -141,6 +143,21 @@ body{
     padding: 5px 25px;
     border-radius: 5px;
 }
+.message{
+    text-align: center;
+    line-height: 10px;
+    background-color: crimson;
+    color: white;
+    width: 50%;
+    margin:10px auto;
+    padding: 3px 0;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #adadad;
+}
+footer{
+    text-align: center;
+    color: gray;
+}
 
 
 @media only screen and (max-width: 768px) {
@@ -189,5 +206,8 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .message{
+        width: 95%;
     }
   }
