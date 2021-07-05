@@ -124,13 +124,14 @@ body{
         height: 768px;
     }
     .section-two{
-        height: 620px;
+        height: 768px;
+        margin-bottom: 250px;
+    }
+    .section-three{
+        height: 768px;
     }
     .second-photo{
         margin-top: 50px;
-    }
-    .section-two{
-        margin-bottom: 250px;
     }
     .latest-work{
         display: flex;
