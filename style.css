@@ -5,6 +5,17 @@ body{
 .section-one{
     background-image: url(img/bg-1.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.section-two{
+    background-image: url(img/bg-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 600px;
     display: flex;
     flex-direction: row;
@@ -15,6 +26,8 @@ body{
     width: 90%;
     margin:auto;
     padding: 50px 0;
+}
+.container-content{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -29,10 +42,18 @@ body{
 }
 .half-part img{
     width: 75%;
-    margin-left: 35px;
 }
 .head-content{
     text-align: justify;
+}
+.bio-content{
+    text-align: justify;
+}
+.bio-content h1{
+    font-size: 35px;
+}
+.second-photo{
+    margin-right: 50px;
 }
 .welcome, .world{
     font-size: 50px;
@@ -55,13 +76,16 @@ body{
 
 
 @media only screen and (max-width: 768px) {
-    .container{
+    .container-content{
         flex-direction: column-reverse;
     }
-    .half-part img{
+    .profile-photo{
         width: 70%;
         margin: auto;
         padding-right: 15%;
+    }
+    .second-photo{
+        padding-left: 10%;
     }
     .welcome, .world{
         font-size: 28px;
@@ -69,5 +93,11 @@ body{
     }
     .section-one{
         height: 768px;
+    }
+    .section-two{
+        height: 620px;
+    }
+    .second-photo{
+        margin-top: 50px;
     }
   }
