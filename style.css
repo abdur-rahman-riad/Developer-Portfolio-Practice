@@ -22,12 +22,32 @@ body{
     justify-content: center;
     align-items: center;
 }
+.section-three{
+    background-image: url(img/bg-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 .container{
     width: 90%;
     margin:auto;
     padding: 50px 0;
 }
+.container .latest{
+    font-size: 35px;
+    text-align: center;
+}
 .container-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.latest-work{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -39,6 +59,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.one-third{
+    width: 100%;
+    margin: 15px;
+}
+.one-third img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #adadad;
 }
 .half-part img{
     width: 75%;
@@ -99,5 +128,14 @@ body{
     }
     .second-photo{
         margin-top: 50px;
+    }
+    .section-two{
+        margin-bottom: 250px;
+    }
+    .latest-work{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
   }
